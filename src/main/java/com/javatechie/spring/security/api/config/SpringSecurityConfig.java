@@ -33,7 +33,6 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 	 * http.authorizeRequests().antMatchers("/rest/**").fullyAuthenticated().and
 	 * ().httpBasic(); }
 	 */
-
 	// security based on ROLE
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
